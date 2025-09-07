@@ -1,0 +1,61 @@
+
+/* Sticky Header Container */
+.header_outer_container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20); /* Dark background */
+  height: 10vh;
+  color: white;
+  transition: all 0.5s ease-in;
+  z-index: 1000;
+}
+
+/* Header background on scroll */
+.nav_black {
+  background-color: rgb(20, 20, 20);
+}
+
+/* Inner header container */
+.header_container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Shared styles for nav lists */
+.header_left ul,
+.header_right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+  gap: 20px; /* Adds spacing between items */
+}
+
+/* Optional: Responsive font sizing */
+.header_left ul li,
+.header_right ul li {
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+};
+
+
+
+.service_code {
+  display: inline-block;       /* Keeps it inline */
+  white-space: nowrap;         /* Prevents wrapping
+  /* border: 1px solid #fff;
+  padding: 8px 12px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff; */
+  text-align: center; }
